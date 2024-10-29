@@ -1,0 +1,11 @@
+Model Information:
+* title:	Witch's Hat and other Essentials
+* source:	https://sketchfab.com/3d-models/witchs-hat-and-other-essentials-24a2f11e02df480fa42a576deb2c75e6
+* author:	JessSwynn (https://sketchfab.com/JessSwynn)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Witch's Hat and other Essentials" (https://sketchfab.com/3d-models/witchs-hat-and-other-essentials-24a2f11e02df480fa42a576deb2c75e6) by JessSwynn (https://sketchfab.com/JessSwynn) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

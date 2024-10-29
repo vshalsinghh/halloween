@@ -1,0 +1,11 @@
+Model Information:
+* title:	Witch Spy
+* source:	https://sketchfab.com/3d-models/witch-spy-4018dd3b98e040ca91469c80fd138b95
+* author:	Smafams (https://sketchfab.com/smafams)
+
+Model License:
+* license type:	CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions must have the same license.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Witch Spy" (https://sketchfab.com/3d-models/witch-spy-4018dd3b98e040ca91469c80fd138b95) by Smafams (https://sketchfab.com/smafams) licensed under CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
