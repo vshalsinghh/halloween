@@ -20,6 +20,8 @@ const gui = new GUI()
 // Canvas
 const canvas = document.querySelector('canvas.webgl')
 
+
+
 // Scene
 const scene = new THREE.Scene()
 
@@ -28,6 +30,27 @@ const gltfLoader = new GLTFLoader()
 const textureLoader = new THREE.TextureLoader()
 const axesHelper = new THREE.AxesHelper( 5 ); 
 // scene.add( axesHelper );
+
+
+const loadingManager = new THREE.LoadingManager();
+const loadingscreen = document.querySelector(".loading");
+
+loadingManager.onStart = () => {
+  console.log("loading started");
+};
+loadingManager.onLoad = () => {
+  console.log("loading finished");
+  canvas.style.display = "block";
+  loadingscreen.style.display= "none";
+};
+loadingManager.onProgress = (url, loaded, total) => {
+  console.log("loading in progress");
+  console.log("progress", (loaded / total) * 100, "%");
+};
+loadingManager.onError = () => {
+  console.log("loading Error");
+};
+
 
 
 
