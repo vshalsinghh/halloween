@@ -123,7 +123,20 @@ audioLoader.load('./witchsound.mp3', function(buffer) {
     console.log("buffer", buffer)
     sound.setLoop(true);  // Play in a loop
     sound.setVolume(0.5); // Adjust volume
-    sound.play();         // Play the audio
+    
+    // Attach event listener to play sound only on user interaction
+    const playAudio = () => {
+        sound.play(); // Start playback
+        console.log("Audio started");
+
+        // Remove the event listener after the first interaction
+        document.removeEventListener('click', playAudio);
+        document.removeEventListener('touchstart', playAudio);
+    };
+
+    // Listen for user interaction to resume audio
+    document.addEventListener('click', playAudio);
+    document.addEventListener('touchstart', playAudio);
 });
 
 // const analyser = new THREE.AudioAnalyser(sound, 32);
